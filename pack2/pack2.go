@@ -8,7 +8,7 @@ import (
 )
 
 func CallLevel_2(ctx context.Context) string {
-    ctxc, _ := tracelog.NewSpan(ctx, "call_level_3_1", OtelSpanKindProducer)
+    ctxc, _ := tracelog.NewSpan(ctx, "call_level_3_1", ZipkinSpanKindProducer)
 
     err := errors.New("MyTestError")
     tracelog.SetSpanError(ctxc, err)
@@ -17,7 +17,7 @@ func CallLevel_2(ctx context.Context) string {
     tracelog.AddSpanAttribute(ctxc, map[string]string{"user_id": "1000098"})
 
     tracelog.EndSpan(ctxc)
-    return "-> 2" + res
+    return "-> 2"
 }
 
 

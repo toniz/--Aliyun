@@ -15,7 +15,8 @@ import (
 
 
     // test trace in package
-    "github.com/toniz/SLS-Aliyun/pack1"
+    //"github.com/toniz/SLS-Aliyun/pack1"
+    "github.com/toniz/Tracing-Aliyun/pack1"
 )
 
 var rc *redis.Client
