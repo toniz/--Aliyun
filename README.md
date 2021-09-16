@@ -12,12 +12,13 @@
 * 编译和运行
 
 ## 结果演示：
-调用结果在阿里云的SLS服务里面查看：
-![result1](doc/调用结果1.png)  
+调用结果在阿里云的SLS服务里面查看：  
+
+![result1](doc/接入结果1.png)  
 --- 
-![result2](doc/调用结果2.png)  
+![result2](doc/接入结果2.png)  
 ---  
-![result3](doc/调用结果3.png)  
+![result3](doc/接入结果3.png)  
 ---
 
 
